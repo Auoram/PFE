@@ -2,12 +2,13 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import 'bootstrap/dist/css/bootstrap.css'
-import { useEffect } from "react";
+import Layout from "@/components/Layout/layout";
+import Header from "@/components/Header/header";
 
 export default function Home() {
   return (
-    <div className="try">
+    <Layout>
     home
-    </div>
+    </Layout>
   );
 }
