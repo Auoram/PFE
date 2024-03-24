@@ -1,7 +1,7 @@
 export const NAV_LINKS=[
     {href: '/', key: 'home', label: 'Home'},
-    {href: '/', key: 'about', label: 'About'},
-    {href: '/', key: 'contact', label: 'Contact'},
+    {href: '/about', key: 'about', label: 'About'},
+    {href: '/contact', key: 'contact', label: 'Contact'},
 ];
 
 export const FOOTER_LINKS=[
@@ -26,3 +26,18 @@ export const FOOTER_LINKS=[
         ], 
     },
 ];
+export const FOOTER_CONTACT_LINKS={
+    title: 'More Info',
+    links: [
+        {label:'Phone number', value:'0668874069'},
+        {label:'Email', value : 'myemail@gmail.com'}
+    ],
+};
+export const SOCIALS = {
+    title : 'Socials',
+    links: [
+        '/facebook.svg',
+        '/github.svg',
+        '/linkedin.svg',
+    ],
+};

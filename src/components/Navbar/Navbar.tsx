@@ -1,6 +1,5 @@
 import Image from "next/image"
 import Link from "next/link"
-import styles from './Navbar.module.css'
 import { NAV_LINKS } from "../../../constants"
 import Button from "../Button/Button"
 
@@ -29,7 +28,7 @@ function Navbar() {
         variant="btn_dark_blue"
         />
         <Image 
-        src="menu.svg"
+        src="/menu.svg"
         alt="menu"
         width={32}
         height={32}

@@ -19,6 +19,7 @@ export const theme = {
     },
     backgroundImage:{
       'logo-img': "url('/logo-img.png')",
+      'menu':"url('/menu.svg')",
     },
     screens:{
       xs: '400px',
