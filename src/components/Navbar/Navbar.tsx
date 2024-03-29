@@ -1,11 +1,13 @@
+import React from "react"
 import Image from "next/image"
 import Link from "next/link"
 import { NAV_LINKS } from "../../../constants"
 import Button from "../Button/Button"
+import Menu from "../Menu/Menu"
 
 function Navbar() {
   return (
-    <nav className="flexBetween max-container padding-container relative z-30 py-5">
+    <div className="flexBetween max-container padding-container relative z-30 py-5">
       <Link href="/">
         <Image src="/logo-img.png" alt="logo" width={124} height={44}/>
       </Link>
@@ -16,7 +18,7 @@ function Navbar() {
             </Link>
           ))}
       </ul>
-      <div className="lg:flexCenter hidden gap-7 cursor-pointer" >
+      <div className="hidden gap-7 cursor-pointer lg:flexCenter " >
       <Button 
         type="button"
         title="Sign In"
@@ -27,15 +29,11 @@ function Navbar() {
         title="Log In"
         variant="btn_dark_blue"
         />
-        <Image 
-        src="/menu.svg"
-        alt="menu"
-        width={32}
-        height={32}
-        className="inline-block cursor-pointer lg:hidden"
-        />
       </div>
-    </nav>
+      <div className="lg:hidden cursor-pointer">
+        <Menu />
+      </div>
+    </div>
   )
 }
 

@@ -1,9 +1,13 @@
 "use client"
+
 import Image from "next/image";
 import styles from "./page.module.css";
+import Hero from "../components/Hero/Hero";
 
 export default function Home() {
   return (
-    <h1 className="font-bold text-teal-500 text-2xl">Hello world</h1>
+    <>
+    <Hero />
+    </>
   );
 }
