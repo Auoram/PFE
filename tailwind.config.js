@@ -7,6 +7,8 @@ export const theme = {
         10: '#D0E9F2',
         20: '#253B6E',
         30: '#020659',
+        40: '#2196F3',
+        60: '#3F51B5',
       },
       green: {
         10: '#C9EEF2',
@@ -15,6 +17,7 @@ export const theme = {
       },
       grey: {
         40: '#E4E7EB',
+        60: '#666666',
       },
     },
     backgroundImage:{

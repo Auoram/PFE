@@ -4,7 +4,7 @@ type ButtonProps={
     type: 'button' |'submit';
     title: string;
     icon?:string;
-    variant: 'btn_dark_green' | 'btn_dark_blue' | 'btn_white_text';
+    variant: string;
 }
 function Button({type,title,icon,variant}: ButtonProps) {
   return (

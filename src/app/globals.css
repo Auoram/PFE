@@ -22,8 +22,8 @@ body {
   .btn_white_text  { 
     @apply  border-white  px-8 py-3 text-white hover:bg-slate-500
   }
-  .btn_green  { 
-    @apply  border-green-50 bg-green-50 px-8 py-5 text-white
+  .btn_gray  { 
+    @apply  text-grey-60 border-none hover:underline
   }
   .btn_dark_blue { 
     @apply  bg-white px-8 py-4 text-blue-20 border-blue-20 transition-all hover:bg-blue-10
@@ -125,10 +125,6 @@ body {
 
   .bold-16 {
     @apply text-[16px] font-[700];
-  }
-
-  .hero-map {
-    @apply absolute right-0 top-0 h-screen w-screen bg-pattern-2 bg-cover bg-center md:-right-28 xl:-top-60;
   }
 
   .camp-quote {
