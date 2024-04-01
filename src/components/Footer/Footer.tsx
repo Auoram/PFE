@@ -5,7 +5,7 @@ import { FOOTER_CONTACT_LINKS, FOOTER_LINKS, SOCIALS } from '../../../constants'
 
 function Footer() {
   return (
-    <footer className="flexCenter mt-10 bg-blue-10 p-8">
+    <footer className="flexCenter bg-blue-10 p-8">
       <div className="padding-container max-container flex w-full flex-col gap-14">
         <div className="flex flex-col items-start justify-center gap-[10%] md:flex-row" >
           <Link href="/" className="mb-10">
