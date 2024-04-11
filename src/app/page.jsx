@@ -12,7 +12,7 @@ export default function Home() {
     <Hero />
     <InfoSection />
     <VaxScedule />
-    <Quote image="/family-doctors.jpg" quote="Vaccines save lives; fear endangers them. it's a simple message parents need to keep hearing." owner="Jeffrey Kluger" />
+    <Quote image="/playing.jpg" quote="Vaccines save lives; fear endangers them. it's a simple message parents need to keep hearing." owner="Jeffrey Kluger" />
     </>
   );
 }

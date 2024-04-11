@@ -23,11 +23,13 @@ function Navbar() {
         type="button"
         title="Sign In"
         variant="btn_dark_blue"
+        href="/login"
         />
         <Button 
         type="button"
         title="Log In"
         variant="btn_dark_blue"
+        href="/signin"
         />
       </div>
       <div className="lg:hidden cursor-pointer">

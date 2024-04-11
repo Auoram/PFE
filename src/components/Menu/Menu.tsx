@@ -24,8 +24,8 @@ function Menu() {
               {link.label}
             </Link>
           ))}
-        <Button type="button" title="Sign In" variant="btn_white_text"/>
-        <Button type="button"title="Log In" variant="btn_white_text" />  
+        <Button type="button" title="Sign In" variant="btn_white_text" href='/signin'/>
+        <Button type="button"title="Log In" variant="btn_white_text" href='/login' />  
         </div>
         )}
     </div>

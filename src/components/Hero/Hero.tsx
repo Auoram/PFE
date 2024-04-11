@@ -11,7 +11,7 @@ function Hero() {
               Your trusted vaccination companion, KidVax is here to help you manage your child's vaccination effortlessly.
             </p>
             <div className="border-none sm:flex-row">
-              <Button type={'button'} title={'How it works >'} variant={'btn_gray'} />
+              <Button type={'button'} title={'How it works >'} variant={'btn_gray'} href={'/howitworks'} />
             </div>
           
         </div>
