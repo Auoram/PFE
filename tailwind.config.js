@@ -11,6 +11,7 @@ export const theme = {
         60: '#3F51B5',
       },
       green: {
+        5:  '#9AD2EE',
         10: '#C9EEF2',
         30: '#0FA68A',
         50: '#127361',
