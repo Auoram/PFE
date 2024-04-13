@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import { FOOTER_CONTACT_LINKS } from '../../../constants'
+import { FOOTER_CONTACT_LINKS } from '../../../../constants'
 
 function contact() {
   return (

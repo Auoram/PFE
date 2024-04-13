@@ -1,6 +1,6 @@
 'use client'
 import React from 'react'
-import ScrollableImageAndText from '../../components/ScrollableImageAndText/ScrollableImageAndText'
+import ScrollableImageAndText from '../../../components/ScrollableImageAndText/ScrollableImageAndText'
 
 function howitworks() {
   return (

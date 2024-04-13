@@ -1,10 +1,9 @@
 
 import Image from "next/image";
-import styles from "./page.module.css";
-import Hero from "../components/Hero/Hero";
-import InfoSection from "../components/InfoSection/InfoSection";
-import VaxScedule from "../components/VaxScedule/VaxScedule";
-import Quote from "../components/Quotes/Quote";
+import Hero from "../../components/Hero/Hero";
+import InfoSection from "../../components/InfoSection/InfoSection";
+import VaxScedule from "../../components/VaxScedule/VaxScedule";
+import Quote from "../../components/Quotes/Quote";
 
 export default function Home() {
   return (

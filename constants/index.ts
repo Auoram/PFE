@@ -8,21 +8,20 @@ export const FOOTER_LINKS=[
     {
     title: 'Home',
     links: [
-        'How it works',
+        {label:'How it works',href:'/howitworks'},
     ],
     },
     {
         title: 'About',
         links: [
-            'About Us',
-            'Our objectives',
+            {label:'About Us',href:'/about'},
+            {label:'Our Objectives',href:'/about'},
         ], 
     },
     {
         title: 'Contact',
         links: [
-            'FAQ',
-            'Contact Us',
+            {label:'Contact Us',href:'/contact'},
         ], 
     },
 ];

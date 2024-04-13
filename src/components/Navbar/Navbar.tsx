@@ -9,7 +9,7 @@ function Navbar() {
   return (
     <div className="flexBetween max-container padding-container relative z-30 py-5">
       <Link href="/">
-        <Image src="/logo-img.png" alt="logo" width={124} height={44}/>
+        <Image src="/logo-img.png" alt="logo" width={130} height={60}/>
       </Link>
       <ul className="hidden h-full gap-12 lg:flex">
           {NAV_LINKS.map((link)=>(
@@ -23,13 +23,13 @@ function Navbar() {
         type="button"
         title="Sign In"
         variant="btn_dark_blue"
-        href="/login"
+        href={'/signin'}
         />
         <Button 
         type="button"
         title="Log In"
         variant="btn_dark_blue"
-        href="/signin"
+        href={'/login'}
         />
       </div>
       <div className="lg:hidden cursor-pointer">
