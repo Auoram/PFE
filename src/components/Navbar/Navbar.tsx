@@ -21,9 +21,9 @@ function Navbar() {
       <div className="hidden gap-7 cursor-pointer lg:flexCenter " >
       <Button 
         type="button"
-        title="Sign In"
+        title="Sign Up"
         variant="btn_dark_blue"
-        href={'/signin'}
+        href={'/signup'}
         />
         <Button 
         type="button"
