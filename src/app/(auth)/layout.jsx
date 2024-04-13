@@ -1,7 +1,8 @@
 import React from 'react';
 import { Inter } from 'next/font/google'
-import Image from 'next/image';
-import Link from 'next/link';
+import PhotoCenter from '../../components/PhotoCenter/PhotoCenter';
+import Footer from '../../components/Footer/Footer';
+import '../globals.css';
 
 const inter = Inter ({ subsets: ['latin'] })
 
@@ -14,12 +15,8 @@ export default function RootLayout({ children }) {
  return (
     <html lang="en">
       <body className={inter.className}> 
+      <PhotoCenter/>
       <main className="relative overflow-hidden">
-        <div className="flexCenter">
-          <Link href="/">
-            <Image src="/logo-img.png" alt="logo" width={130} height={60}/>
-          </Link>
-        </div>
         {children}
       </main>
       </body>
