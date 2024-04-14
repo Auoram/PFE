@@ -20,7 +20,7 @@ function Menu() {
         {open && ( 
         <div className="bg-blue-20 text-white absolute left-0 top-24 w-full h-[calc(100vh-6rem)] flex flex-col gap-9 items-center justify-center text-3xl">
         {NAV_LINKS.map((link)=>(
-            <Link href={link.href} key={link.key} onClick={handleLinkClick}>
+            <Link href={link.href} key={link.key} className="hover:text-blue-80" onClick={handleLinkClick}>
               {link.label}
             </Link>
           ))}

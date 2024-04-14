@@ -76,7 +76,7 @@ function MoreInfo() {
             </div>
             </div>
             </form>
-            <Button type="submit" title="Sign Up" variant="btn_dark_green_shadow" href="about">
+            <Button type="submit" title="Sign Up" variant="btn_dark_green_shadow" href="/login">
               <input type="submit" value="Submit"/>
             </Button>
           </div>

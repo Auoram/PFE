@@ -4,6 +4,14 @@ export const NAV_LINKS=[
     {href: '/contact', key: 'contact', label: 'Contact'},
 ];
 
+export const MENU_LINKS=[
+    {href: '/dashboard', key: 'dashboard', label: 'Dashboard'},
+    {href: '/profile', key: 'profile', label: 'Child Profile'},
+    {href: '/information', key: 'information', label: 'Vaccination Information'},
+    {href: '/addChild', key: 'addChild', label: 'Add Child'},
+    {href: '/appointment', key: 'appointment', label: 'Appointment Management'},
+];
+
 export const FOOTER_LINKS=[
     {
     title: 'Home',
