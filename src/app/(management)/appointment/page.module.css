@@ -1,0 +1,10 @@
+.cls {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.4s ease, transform 0.4s ease;
+  }
+  
+  .cls.show {
+    opacity: 1;
+    transform: translateY(0);
+  }

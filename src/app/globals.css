@@ -121,8 +121,16 @@ body {
     @apply text-[52px] font-[700] leading-[120%];
   }
 
+  .bold-44 {
+    @apply text-[44px] font-[700] leading-[120%];
+  }
+
   .bold-40 {
     @apply text-[40px] font-[700] leading-[120%];
+  }
+
+  .bold-34 {
+    @apply text-[34px] font-[700] leading-[120%];
   }
 
   .bold-32 {
