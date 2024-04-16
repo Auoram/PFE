@@ -7,7 +7,7 @@ type ButtonProps={
     title: string;
     icon?:string;
     variant: string;
-    href:string;
+    href?:string;
 }
 function Button({type,title,icon,variant,href}: ButtonProps) {
   return (

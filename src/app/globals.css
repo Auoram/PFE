@@ -73,6 +73,10 @@ body {
     @apply text-[40px] font-[400] leading-[120%];
   }
 
+  .regular-36 {
+    @apply text-[36px] font-[400];
+  }
+
   .regular-32 {
     @apply text-[32px] font-[400];
   }

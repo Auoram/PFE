@@ -29,6 +29,7 @@ function AppMenu() {
             </Link>
           ))} 
           <Button type="button" title="Settings" variant="btn_no_background" icon="/settings.svg" href='/'/>
+          <Button type="button" title="Check an other kid" variant="btn_no_background" icon="/settings.svg" href='/'/>
           <Button type="button" title="Log Out" variant="btn_white" href='/' />  
         </div>
         )}

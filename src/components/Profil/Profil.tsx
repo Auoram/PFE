@@ -12,7 +12,7 @@ function Profil({avatar,firstN,lastN,email}: ProfilProps) {
       <div className="avatar rounded-full min-h-10 min-w-10 bg-green-5 text-white bold-18 flexCenter">
         <p>{avatar}</p>
       </div>   
-       <p className="bold-16 text-blue-40">{firstN}<span> {lastN}</span></p>
+       <p className="bold-16 text-blue-40">Welcome, {firstN}<span> {lastN}</span></p>
      <p className="regular-14 text-gray-700">{email}</p>
     </div>
   )

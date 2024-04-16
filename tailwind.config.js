@@ -5,8 +5,9 @@ export const theme = {
     colors: {
       blue: {
         10: '#D0E9F2',
-        15: "#ACD1F2",
+        15: '#ACD1F2',
         20: '#253B6E',
+        25: '#CFEBF9',
         30: '#020659',
         40: '#2196F3',
         60: '#3F51B5',
