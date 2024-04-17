@@ -34,6 +34,22 @@ export const ANALITYCS_REPORTS=[
     },
 ];
 
+export const MORE_INFO=[
+    {title: 'Title 1',
+    label: 'The description of the title 1.'},
+    {title: 'Title 2',
+    label: 'The description of the title 2.'},
+    {title: 'Title 3',
+    label: 'The description of the title 3.',},
+    {title: 'Title 4',
+    label: 'The description of the title 4.',},
+]
+
+export const CHOICE=[
+    {title: "The first kid's name"},
+    {title: "The second kid's name"},
+];
+
 export const FOOTER_LINKS=[
     {
     title: 'Home',

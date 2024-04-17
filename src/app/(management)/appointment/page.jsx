@@ -28,8 +28,8 @@ function appointment() {
   return (
     <div>      
       <section className="max-container padding-container flex items-center gap-25 py-16 pb-32 md:gap-28 lg:py-28">
-        <div className="relative z-20 flex flex-1 flex-col gap-7 xl:-1/2">
-          <h1 className="bold-34 text-blue-40 lg:bold-44">Take appointment right now</h1>
+        <div className="relative z-20 flex flex-1 flex-col gap-8 xl:-1/2">
+          <h1 className="bold-34 text-blue-40 lg:bold-46">Take appointment right now</h1>
           <p className="regular-18 mt-6 text-grey-60 xl:maw-w-[520]">
             The way to manage your appointment is written right bellow.
           </p>

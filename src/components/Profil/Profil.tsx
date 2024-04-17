@@ -8,7 +8,7 @@ type ProfilProps={
 }
 function Profil({avatar,firstN,lastN,email}: ProfilProps) {
   return (
-    <div className="flexCenter gap-2 ml-2 mt-2 border border-gray-40 shadow-lg rounded-[8px] p-4 flex-col">
+    <div className="flexCenter gap-5 ml-2 mt-2 border border-gray-40 shadow-lg rounded-[8px] p-4 flex-col">
       <div className="avatar rounded-full min-h-10 min-w-10 bg-green-5 text-white bold-18 flexCenter">
         <p>{avatar}</p>
       </div>   

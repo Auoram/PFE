@@ -32,7 +32,7 @@ body {
     @apply  bg-white px-8 py-4 text-blue-20 border-blue-20 transition-all hover:bg-blue-10
   }
   .btn_dark_green { 
-    @apply  bg-green-70 rounded-2xl w-44 px-8 py-4 text-white transition-all hover:bg-green-5 hover:bg-opacity-35 hover:text-green-70
+    @apply  bg-green-70 rounded-full w-44 px-8 py-4 text-white transition-all hover:bg-green-5 hover:bg-opacity-35 hover:text-green-70
   }
   .btn_dark_green_shadow  { 
     @apply bg-green-70 rounded-full border-green-70 shadow-lg shadow-green-30 w-44 px-8 py-4 text-white transition-all hover:bg-green-5 hover:bg-opacity-35 hover:text-green-70
@@ -119,6 +119,10 @@ body {
 
   .bold-52 {
     @apply text-[52px] font-[700] leading-[120%];
+  }
+
+  .bold-46 {
+    @apply text-[46px] font-[700] leading-[120%];
   }
 
   .bold-44 {
