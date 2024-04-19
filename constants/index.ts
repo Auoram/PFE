@@ -34,6 +34,12 @@ export const ANALITYCS_REPORTS=[
     },
 ];
 
+export const TYPE_INFO=[
+    {title: 'Info n°1',desc: 'The description of the info and the details.'},
+    {title: 'Info n°2',desc: 'The description of the info and the details.'},
+    {title: 'Info n°3',desc: 'The description of the info and the details.'},
+];
+
 export const MORE_INFO=[
     {title: 'Title 1',
     label: 'The description of the title 1.'},
@@ -43,7 +49,14 @@ export const MORE_INFO=[
     label: 'The description of the title 3.',},
     {title: 'Title 4',
     label: 'The description of the title 4.',},
-]
+];
+
+export const RESOURCES=[
+    {title: 'The book or the video title',label: 'Some details about the page number.'},
+    {title: 'The book or the video title',label: 'Some details about the page number.'},
+    {title: 'The book or the video title',label: 'Some details about the page number.'},
+    {title: 'The book or the video title',label: 'Some details about the page number.'},
+];
 
 export const CHOICE=[
     {title: "The first kid's name"},
