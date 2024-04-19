@@ -31,6 +31,12 @@ body {
   .btn_dark_blue { 
     @apply  bg-white px-8 py-4 text-blue-20 border-blue-20 transition-all hover:bg-blue-10
   }
+  .btn_light_blue { 
+    @apply  bg-white px-8 py-4 text-blue-40 border-blue-40 w-48 transition-all hover:bg-blue-10
+  }
+  .btn_red { 
+    @apply  bg-white px-8 py-4 text-red-600 border-red-600 w-48 transition-all hover:bg-red-300
+  }
   .btn_dark_green { 
     @apply  bg-green-70 rounded-full w-44 px-8 py-4 text-white transition-all hover:bg-green-5 hover:bg-opacity-35 hover:text-green-70
   }
