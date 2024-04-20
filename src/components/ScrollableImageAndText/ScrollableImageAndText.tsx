@@ -33,8 +33,8 @@ function ScrollableImageAndText() {
         </div>
         <div className="relative flex flex-1 flex-col gap-7 sm:ml-20">
           <h1 className="lg:regular-32 text-green-50 regular-24">Set up your account<br/> in minutes</h1>
-          <p className="lg:regular-18 text-grey-60 sm:regular-16">Explain how to do this step clearly.</p>
-          <Button type='button' title='Sign In' variant='btn_dark_green' href='/signin' />
+          <p className="lg:regular-18 text-grey-60 sm:regular-16">Begin by providing basic information about yourself and your child. KidVax guides you through the process step by step, making it easy to create an account for your family's needs.</p>
+          <Button type='button' title='Sign Up' variant='btn_dark_green' href='/signin' />
         </div>
       </section>
 
@@ -43,9 +43,9 @@ function ScrollableImageAndText() {
           <Image src="/baby_2.jpg" alt='image-2' width={400} height={1350}/>
         </div>
         <div className="relative flex flex-1 flex-col gap-7 sm:ml-20">
-          <h1 className="lg:regular-32 text-green-50 regular-24">Step number 2<br/> in minutes</h1>
-          <p className="lg:regular-18 text-grey-60 regular-16">Explain how to do this step clearly.</p>
-          <Button type='button' title='Sign In' variant='btn_dark_green' href='/signin' />
+          <h1 className="lg:regular-32 text-green-50 regular-24">Choose Your Child's <br/> Vaccination Schedule</h1>
+          <p className="lg:regular-18 text-grey-60 regular-16">Once you finish the first two steps, you'll have the flexibility to select and customize your child's vaccination schedule.</p>
+          <Button type='button' title='Log In' variant='btn_dark_green' href='/login' />
         </div>
       </section>
 
@@ -54,9 +54,9 @@ function ScrollableImageAndText() {
           <Image src="/Baby_3.jpg" alt='image-3' width={400} height={1350}/>
         </div>
         <div className="relative flex flex-1 flex-col gap-7 sm:ml-20">
-          <h1 className="lg:regular-32 text-green-50 sm:regular-24">Step number 3<br/> in minutes</h1>
-          <p className="lg:regular-18 text-grey-60 sm:regular-16">Explain how to do this step clearly.</p>
-          <Button type='button' title='Sign In' variant='btn_dark_green' href='/signin' />
+          <h1 className="lg:regular-32 text-green-50 sm:regular-24">Access Personalized <br/> Reminders and Resources</h1>
+          <p className="lg:regular-18 text-grey-60 sm:regular-16">Stay on top of your child's immunization schedule with personalized reminders. Additionally, unlock a wealth of educational resources.</p>
+          <Button type='button' title='Log In' variant='btn_dark_green' href='/login' />
         </div>
       </section>
     </div>

@@ -23,7 +23,7 @@ function profil() {
        </div>
       </section>
       <section className="grid place-items-center mb-10 bg-gradient-to-b from-blue-25 to-white">
-        <h1 className="text-green-60 regular-36 text-center mt-6 mb-6">Analytics & Reports</h1>
+        <h1 className="text-green-60 regular-36 text-center mt-6 mb-2">Analytics & Reports</h1>
         <div className="flexCenter gap-2 ml-2 mt-2 p-4 flex-col">
         <div className="grid lg:grid-cols-2 grid-cols-1 text-center mb-3 gap-x-20 lg:px-32">
             <Analytics name='Vaccination Analytics' />
@@ -32,7 +32,7 @@ function profil() {
         </div>
       </section>
       <section>
-      <Quote image="/computer.png" quote="Vaccines save lives; fear endangers them. it's a simple message parents need to keep hearing." owner="Jeffrey Kluger" />
+      <Quote image="/computer.png" quote="Vaccines are the most cost-effective health care interventions there are.A dollar spent on a childhood vaccination not only helps save a life, but greatly reduces spending on future healthcare." owner="Ezekiel Emanuel" />
       </section>
     </div>
   )

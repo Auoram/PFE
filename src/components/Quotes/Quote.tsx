@@ -8,7 +8,7 @@ type QuoteProps={
 }
 function Quote({image,owner,quote}: QuoteProps) {
   return (
-    <div className="container flex flex-1 items-center gap-8">
+    <div className="container flex flex-1 items-center gap-8 lg:pr-12">
       <div className="relative flex flex-col mr-20">
         <Image src={image} alt='quote-img' height={250} width={300} />
       </div>

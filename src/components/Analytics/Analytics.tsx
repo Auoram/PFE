@@ -12,10 +12,10 @@ function Analytics({ name }: ReportProps) {
   if (infoItem) {
     return (
       <div>
-          <div className='grid gap-y-6 justify-items-center'>
+          <div className='grid gap-y-6 justify-items-center mt-4'>
            <Image src="/baby_2.jpg" alt='report' height={200} width={200}/>
            <h3 className="text-green-30 regular-24">{infoItem.title}</h3>
-           <p className="text-gray-600">{infoItem.label}</p>
+           <p className="text-gray-600 px-20">{infoItem.label}</p>
           </div>
       </div>
     );

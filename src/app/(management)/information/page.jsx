@@ -28,7 +28,7 @@ function information() {
       {MORE_INFO.map((link, index)=>(
         <div className="border border-gray-300 shadow-lg mb-6 p-4 rounded-md">
           <div className="flex justify-between items-center px">
-            <h3 className="regular-30 text-blue-20 ">{link.title}</h3>
+            <h3 className="regular-24 text-blue-20 ">{link.title}</h3>
             <div onClick={() => toggleDescription(index)} className="hover:cursor-pointer">
               <Image src='/close.svg' alt='plus' height={40} width={39}/>
             </div>

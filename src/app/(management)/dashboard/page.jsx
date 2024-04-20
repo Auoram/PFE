@@ -15,7 +15,7 @@ function dashboard() {
       <NextDate name='the name of the vaccine' dateN='03/04/2024 10:30 AM'/>
     </div>
     <div className='lg:w-3/4 w-2/3'>
-      <ChildProfile name='Full Name' age='1 year' bType='+A' center='clinic Chamal' imgP="/bg-mom&baby.jpg" btn='see more'/>
+      <ChildProfile name="Child's Full Name" age='1 year' bType='+A' center='clinic Chamal' imgP="/bg-mom&baby.jpg" btn='see more'/>
       <MoreInfo name='Vaccine 1'/>
       <div className="flexCenter gap-3 ml-2 mt-2 mb-4 border border-gray-40 shadow-lg rounded-[8px] p-4 lg:flex-col"> 
       <h1 className="text-blue-40 regular-24">Download Records</h1>
