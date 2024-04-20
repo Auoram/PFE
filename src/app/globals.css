@@ -91,6 +91,10 @@ body {
     @apply text-[30px] font-[400];
   }
 
+  .regular-26 {
+    @apply text-[26px] font-[400];
+  }
+
   .regular-24 {
     @apply text-[24px] font-[400];
   }
@@ -145,6 +149,10 @@ body {
 
   .bold-32 {
     @apply text-[32px] font-[700] leading-[120%];
+  }
+
+  .bold-24 {
+    @apply text-[24px] font-[700];
   }
 
   .bold-20 {

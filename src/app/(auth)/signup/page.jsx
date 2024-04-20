@@ -57,20 +57,20 @@ function signin() {
           <label htmlFor="address" className="mb-1 items-start text-green-60 bold-14">Gender</label>
           <div className="pb-2 w-72">
              <input type="radio" id="W" name="gender" value="Woman"/>
-               <label for="Woman" className='text-blue-60'>Woman<br/></label>
+               <label htmlFor="Woman" className='text-blue-60'>Woman<br/></label>
              <input type="radio" id="M" name="gender" value="Man"/>
-               <label for="Man" className='text-blue-60'>Man<br/></label>
+               <label htmlFor="Man" className='text-blue-60'>Man<br/></label>
           </div>
         </div>
         <div className="flex flex-col mb-8">
           <label htmlFor="address" className="mb-1 items-start text-green-60 bold-14">Relationship to child</label>
           <div className="pb-2 w-72">
              <input type="radio" id="m" name="rs" value="Mother"/>
-               <label for="Mother" className='text-blue-60'>Mother<br/></label>
+               <label htmlFor="Mother" className='text-blue-60'>Mother<br/></label>
              <input type="radio" id="f" name="rs" value="Father"/>
-               <label for="Father" className='text-blue-60'>Father<br/></label>
+               <label htmlFor="Father" className='text-blue-60'>Father<br/></label>
               <input type="radio" id="g" name="rs" value="Guardian"/>
-               <label for="Guardian" className='text-blue-60'>Guardian<br/></label>
+               <label htmlFor="Guardian" className='text-blue-60'>Guardian<br/></label>
           </div>
         </div>
         </div>
