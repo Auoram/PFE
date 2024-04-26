@@ -13,12 +13,12 @@ function Menu() {
     };
   return (
     <div>
-        {!open ? (<Image src="/menu.svg" alt='menu' width={32} height={32} onClick={()=>setOpen(true)} /> 
+        {!open ? (<Image src="/menu-white.svg" alt='menu' width={32} height={32} onClick={()=>setOpen(true)} /> 
         ) : (
-        <Image src="/close.svg" alt='close' width={32} height={32} onClick={()=> setOpen(false)} />
+        <Image src="/closeWhite.svg" alt='close' width={32} height={32} onClick={()=> setOpen(false)} />
         ) }
         {open && ( 
-        <div className="bg-blue-20 text-white absolute left-0 top-24 w-full h-[calc(100vh-6rem)] flex flex-col gap-9 items-center justify-center text-3xl">
+        <div className="bg-blue-90 text-white absolute left-0 top-24 w-full h-[calc(100vh-6rem)] flex flex-col gap-9 items-center justify-center text-3xl">
         {NAV_LINKS.map((link)=>(
             <Link href={link.href} key={link.key} className="hover:text-blue-80" onClick={handleLinkClick}>
               {link.label}

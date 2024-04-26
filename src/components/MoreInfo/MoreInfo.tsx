@@ -16,18 +16,18 @@ function MoreInfo({ name }: MoreInfoProps) {
         <h2 className="text-gray-400 regular-30">{infoItem.title}</h2>
         <div className="grid lg:grid-cols-3 grid-cols-1 text-center mb-3 gap-x-20 lg:px-32">
           <div className='grid gap-y-4 justify-items-center'>
-           <Image src="/checking.jpg" alt='S-effect' height={200} width={200}/>
-           <h3 className="text-green-30 regular-24">Side effects</h3>
+           <Image src="/sideEffect.jpg" alt='S-effect' height={200} width={200}/>
+           <h3 className="text-blue-40 regular-24">Side effects</h3>
            <p className="text-gray-600">{infoItem.label1}</p>
           </div>
           <div className='grid gap-y-4 justify-items-center'>
-          <Image src="/checking.jpg" alt='Recc' height={200} width={200}/>
-           <h3 className="text-green-30 regular-24">Recommendations</h3>
+          <Image src="/recommend.jpg" alt='Recc' height={200} width={200}/>
+           <h3 className="text-blue-40 regular-24">Recommendations</h3>
            <p className="text-gray-600">{infoItem.label2}</p>
           </div>
           <div className='grid gap-y-4 justify-items-center'>
-           <Image src="/checking.jpg" alt='Pre' height={200} width={200}/>
-           <h3 className="text-green-30 regular-24">Preventable diseases</h3>
+           <Image src="/PreDi.jpg" alt='Pre' height={200} width={200}/>
+           <h3 className="text-blue-40 regular-24">Preventable diseases</h3>
            <p className="text-gray-600">{infoItem.label3}</p>
           </div>
         </div>

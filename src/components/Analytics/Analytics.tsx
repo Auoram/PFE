@@ -14,8 +14,8 @@ function Analytics({ name }: ReportProps) {
       <div>
           <div className='grid gap-y-6 justify-items-center mt-4'>
            <Image src="/baby_2.jpg" alt='report' height={200} width={200}/>
-           <h3 className="text-green-30 regular-24">{infoItem.title}</h3>
-           <p className="text-gray-600 px-20">{infoItem.label}</p>
+           <h3 className="text-blue-40 regular-26">{infoItem.title}</h3>
+           <p className="text-gray-600 regular-18 px-20">{infoItem.label}</p>
           </div>
       </div>
     );

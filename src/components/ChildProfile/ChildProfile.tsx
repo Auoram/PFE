@@ -26,7 +26,7 @@ function ChildProfile({name,age,center,bType,dateB,gender,parentN,bgC,imgP,btn}:
         {gender && <p className="bold-18 text-gray-400"><span className="text-blue-40">Gender:</span> {gender}</p>}
         {parentN && <p className="bold-18 text-gray-400"><span className="text-blue-40">Parent/Guardian:</span> {parentN}</p>}
         <div className="my-6">
-          {btn && <Button title={btn} type='button' variant='btn_dark_green_shadow' href='/profile' />}
+          {btn && <Button title={btn} type='button' variant='btn_dark_blue_shadow' href='/profile' />}
         </div>
      </div>
      <div className="relative flex flex-1 flex-col gap-4">

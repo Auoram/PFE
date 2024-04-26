@@ -4,14 +4,19 @@ export const theme = {
   extend: {
     colors: {
       blue: {
+        5: '#03153D',
         10: '#D0E9F2',
         15: '#ACD1F2',
         20: '#253B6E',
         25: '#CFEBF9',
         30: '#020659',
         40: '#2196F3',
+        45: '#3F7EA3',
         60: '#3F51B5',
         80: '#89CFF0',
+        90: '#01040F',
+        110: '#041742',
+        120: '#010614',
       },
       green: {
         5:  '#9AD2EE',
@@ -29,6 +34,10 @@ export const theme = {
     backgroundImage:{
       'logo-img': "url('/logo-img.png')",
       'menu':"url('/menu.svg')",
+       'bg' : "url('/Backgroud1.jpg')",
+       'bg2' : "url('/bg-2.jpg')",
+       'bg3' : "url('/bg3.jpg')",
+       'bg4' : "url('/bg--3.jpg')",
     },
     screens:{
       xs: '400px',

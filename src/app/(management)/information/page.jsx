@@ -43,12 +43,12 @@ function information() {
       </section>
       <section>
       <div className="flexCenter gap-2 ml-2 mt-2 p-4 flex-col">
-      <h1 className="text-green-60 regular-36 text-center mb-4">Other type of vaccine information</h1>
+      <h1 className="text-blue-40 regular-36 text-center mb-4">Other type of vaccine information</h1>
         <div className="grid lg:grid-cols-3 grid-cols-1 text-center mb-6 gap-x-20 lg:px-32">
             {TYPE_INFO.map((link)=>(
               <div className="flexCenter gap-8 ml-2 mt-2 border border-gray-40 shadow-md p-4 flex-col">
                 <Image src='/bg-mom&baby.jpg' alt='profile-img' height={250} width={350}/>
-                <h1 className=" text-green-60 regular-24">{link.title}</h1>
+                <h1 className=" text-blue-40 regular-24">{link.title}</h1>
                 <p className=" text-gray-600 regular-18">{link.desc} </p>
               </div>
             ))}
@@ -56,7 +56,7 @@ function information() {
       </div>
       </section>
       <section>
-        <h1 className="text-green-60 regular-36 text-center mb-10">Additional Resources</h1>
+        <h1 className="text-blue-40 regular-36 text-center mb-10">Additional Resources</h1>
         <div className="max-container grid gap-3 my-7">
         {RESOURCES.map((link)=>(
           <div className="flex items-center">

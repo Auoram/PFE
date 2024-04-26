@@ -6,8 +6,8 @@ function about() {
     <div>
     <section className="max-container padding-container flex items-center gap-25 py-16 pb-32 md:gap-28 lg:py-28">
         <div className="relative z-20 flex flex-1 flex-col gap-7 xl:mb-28">
-            <h1 className="bold-32 text-blue-60 lg:bold-52">The purpose of <span className="text-blue-40">KidVax</span></h1>
-            <p className="regular-16 mt-6 xl:text-center text-grey-60 xl:maw-w-[520]">
+            <h1 className="bold-32 text-blue-30 lg:bold-52">The purpose of <span className="text-blue-45">KidVax</span></h1>
+            <p className="lg:regular-20 regular-18 mt-6 xl:text-center text-grey-60 xl:maw-w-[520]">
               In our commitment to Children's health, KidVax provide a comprehensive vaccination management services, ensuring every child received the care and protection they need to have.
             </p>
         </div>
@@ -27,7 +27,7 @@ function about() {
     <div className="flex items-center justify-center">
         <div className="border-2 border-grey-40 py-7 px-7 flex flex-1 flex-col gap-6 w-2/3">
             <h2 className="regular-32 text-blue-60">Promote Vaccination Awareness</h2>
-            <p className="regular-16 text-grey-60">Increase awareness about the importance of childhood immunization among parents.</p>
+            <p className="lg:regular-20 regular-18 text-grey-60">Increase awareness about the importance of childhood immunization among parents.</p>
         </div>
         <div className="flex flex-col items-center justify-center w-1/3">
             <Image src="/Vaccine.jpg" alt='about-obj1-img' height={200} width={300}/>
@@ -37,7 +37,7 @@ function about() {
     <div className="flex items-center justify-center flex-row-reverse">
         <div className="border-2 border-grey-40 py-7 px-7 flex flex-1 flex-col gap-6 w-2/3">
             <h2 className="regular-32 text-blue-60">Streamline Appointment Scheduling</h2>
-            <p className="regular-16 text-grey-60">Provide a platform for scheduling vaccination appointments, making it convenient for parents to keep track of the vaccination process.</p>
+            <p className="lg:regular-20 regular-18 text-grey-60">Provide a platform for scheduling vaccination appointments, making it convenient for parents to keep track of the vaccination process.</p>
         </div>
         <div className="flex flex-col items-center justify-center w-1/3">
             <Image src="/picnic.jpg" alt='about-obj2-img' height={200} width={300}/>
@@ -47,7 +47,7 @@ function about() {
     <div className="flex items-center justify-center">
         <div className="border-2 border-grey-40 py-7 px-7 flex flex-1 flex-col gap-6 w-2/3">
             <h2 className="regular-32 text-blue-60">Education and Information</h2>
-            <p className="regular-16 text-grey-60">Offer reliable information about different vaccines, their benefits, and potential side effects, empowering parents to make informed decisions.</p>
+            <p className="lg:regular-20 regular-18 text-grey-60">Offer reliable information about different vaccines, their benefits, and potential side effects, empowering parents to make informed decisions.</p>
         </div>
         <div className="flex flex-col items-center justify-center w-1/3">
             <Image src="/family-smile.jpg" alt='about-obj3-img' height={200} width={300}/>

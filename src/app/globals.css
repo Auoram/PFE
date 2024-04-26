@@ -23,19 +23,25 @@ body {
     @apply  border-white  px-8 py-3 text-white hover:bg-slate-500
   }
   .btn_gray  { 
-    @apply  text-grey-60 border-none hover:underline
+    @apply  text-grey-40 border-none hover:underline
+  }
+  .btn_dark_blue_shadow  { 
+    @apply bg-blue-40 rounded-full border-blue-40 shadow-lg shadow-blue-40 w-44 px-8 py-4 text-white transition-all hover:bg-blue-15 hover:bg-opacity-35 hover:text-blue-40
   }
   .btn_no_background  { 
     @apply  text-white border-none hover:text-blue-20
   }
   .btn_dark_blue { 
-    @apply  bg-white px-8 py-4 text-blue-20 border-blue-20 transition-all hover:bg-blue-10
+    @apply  bg-blue-110 px-8 py-4 text-white border-white transition-all hover:bg-blue-10 hover:text-blue-30
   }
   .btn_light_blue { 
     @apply  bg-white px-8 py-4 text-blue-40 border-blue-40 w-48 transition-all hover:bg-blue-10
   }
   .btn_red { 
     @apply  bg-white px-8 py-4 text-red-600 border-red-600 w-48 transition-all hover:bg-red-300
+  }
+  .btn_blue { 
+    @apply  bg-blue-40 rounded-full w-44 px-8 py-4 text-white transition-all hover:bg-green-10 hover:text-blue-40
   }
   .btn_dark_green { 
     @apply  bg-green-70 rounded-full w-44 px-8 py-4 text-white transition-all hover:bg-green-5 hover:bg-opacity-35 hover:text-green-70
@@ -46,6 +52,10 @@ body {
   
   .max-container {
     @apply mx-auto max-w-[1440px];
+  }
+
+  .bg-opacity-custom {
+    @apply bg-bg bg-cover bg-center bg-opacity-45;
   }
 
   .padding-container {
@@ -123,6 +133,10 @@ body {
     @apply text-[88px] font-[700] leading-[120%];
   }
 
+  .bold-66 {
+    @apply text-[66px] font-[700] leading-[120%];
+  }
+
   .bold-64 {
     @apply text-[64px] font-[700] leading-[120%];
   }
@@ -137,6 +151,10 @@ body {
 
   .bold-44 {
     @apply text-[44px] font-[700] leading-[120%];
+  }
+
+  .bold-42 {
+    @apply text-[42px] font-[700] leading-[120%];
   }
 
   .bold-40 {

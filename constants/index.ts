@@ -90,8 +90,8 @@ export const FOOTER_LINKS=[
 export const FOOTER_CONTACT_LINKS={
     title: 'More Info',
     links: [
-        {label:'Phone number', value:'0668874069'},
-        {label:'Email', value : 'marouaboumchich@gmail.com'}
+        {label:'Phone number:', value:'0668874069'},
+        {label:'Email:', value : 'marouaboumchich@gmail.com'}
     ],
 };
 export const SOCIALS = {

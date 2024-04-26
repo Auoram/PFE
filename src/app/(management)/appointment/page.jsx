@@ -40,28 +40,28 @@ function appointment() {
       </section>
       <section ref={(ref) => (sectionsRef.current[0] = ref)} className={`bg-blue-25 justify-items-center items-center p-16 gap-25 ${isVisible[0] ? styles.show : ''} ${styles.cls}`}>
         <div className="flex flex-col gap-8 text-center sm:ml-20">
-          <h1 className="text-green-50 regular-32">To take an appointment</h1>
+          <h1 className="text-blue-40 regular-32">To take an appointment</h1>
           <p className="lg:regular-18 text-grey-60 sm:regular-16">click the button book now and fill the form.</p>
           <div className="flex justify-center">
-            <Button type='button' title='Book Now' variant='btn_dark_green' href='/signin' />
+            <Button type='button' title='Book Now' variant='btn_blue' href='/signin' />
           </div>
         </div>
       </section>
       <section ref={(ref) => (sectionsRef.current[1] = ref)} className={`justify-items-center items-center p-16 gap-25 ${isVisible[1] ? styles.show : ''} ${styles.cls}`}>
         <div className="flex flex-col gap-8 text-center sm:ml-20">
-          <h1 className="text-green-50 regular-32">To cancel an appointment</h1>
+          <h1 className="text-blue-40 regular-32">To cancel an appointment</h1>
           <p className="lg:regular-18 text-grey-60 sm:regular-16">click the button Cancel It and fill the form.</p>
           <div className="flex justify-center">
-            <Button type='button' title='Cancel It' variant='btn_dark_green' href='/signin' />
+            <Button type='button' title='Cancel It' variant='btn_blue' href='/signin' />
           </div>
         </div>
       </section>
       <section ref={(ref) => (sectionsRef.current[2] = ref)} className={`bg-blue-25 justify-items-center items-center p-16 gap-25 ${isVisible[2] ? styles.show : ''} ${styles.cls}`}>
         <div className="flex flex-col gap-8 text-center sm:ml-20">
-          <h1 className="text-green-50 regular-32">To reschedule an appointment</h1>
+          <h1 className="text-blue-40 regular-32">To reschedule an appointment</h1>
           <p className="lg:regular-18 text-grey-60 sm:regular-16">click the button Reschedule It and fill the form.</p>
           <div className="flex justify-center">
-            <Button type='button' title='Reschedule It' variant='btn_dark_green' href='/signin' />
+            <Button type='button' title='Reschedule It' variant='btn_blue' href='/signin' />
           </div>
         </div>
       </section>
