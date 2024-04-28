@@ -1,6 +1,5 @@
 import React from 'react';
 import Button from '../../../components/Button/Button';
-
 function Login() {
   return (
     <div className="flex flex-col items-center justify-center h-100vh py-20">
