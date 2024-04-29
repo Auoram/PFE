@@ -1,5 +1,6 @@
 import React from 'react';
 import Button from '../../../components/Button/Button';
+
 function Login() {
   return (
     <div className="flex flex-col items-center justify-center h-100vh py-20">
@@ -20,7 +21,7 @@ function Login() {
             <input type="password" id="password" name="password" placeholder="Your password" className="border border-blue-60 w-full py-2 px-3 focus:outline-none focus:border-green-60"/>
           </div>
         </div>
-        <Button type="submit" title="Log in" variant="btn_dark_green_shadow" href="/dashboard"/>
+        <Button type="submit" title="Log in" variant="btn_dark_green_shadow" href='/dashboard'/>
       </div>
     </div>
   );
