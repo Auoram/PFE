@@ -1,0 +1,112 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./vaxs.db"
+}
+// schema.prisma
+
+// Define the User model
+model User {
+  id       Int      @id @default(autoincrement())
+  email    String   @unique
+  password String
+  role     String   
+  Parent   Parent[]
+  personnelsMedical PersonnelMedical[]
+}
+
+// Define the Parent model
+model Parent {
+  idP      Int      @id @default(autoincrement())
+  user     User     @relation(fields: [user_id], references: [id])
+  user_id  Int
+  nomP     String?
+  prenomP  String?
+  numTelP  String?
+  roleP    String?
+  sexeP    String   
+  enfants  Enfant[]
+  rendezVous    RendezVous[]
+}
+
+// Define the CentreVax model
+model CentreVax {
+  idC       Int      @id @default(autoincrement())
+  nomC      String?
+  adresseC  String?
+  numTel    Int?
+  personnelsMedical PersonnelMedical[]
+  enfants            Enfant[]
+  rendezVous        RendezVous[]
+}
+
+// Define the PersonnelMedical model
+model PersonnelMedical {
+  idPM            Int      @id @default(autoincrement())
+  user     User     @relation(fields: [user_id], references: [id])
+  user_id  Int
+  emailPM         String?
+  nomPM           String?
+  prenomPM        String?
+  numTelPM        Int?
+  rolePM          String?
+  CentreVax       CentreVax @relation(fields: [CentreVax_idC], references: [idC])
+  CentreVax_idC   Int
+}
+
+// Define the Enfant model
+model Enfant {
+  idE               Int       @id @default(autoincrement())
+  nomCompletE       String
+  dateNaiss         DateTime?
+  adresseE          String?
+  numSMI            String   @unique
+  centreSante       CentreVax @relation(fields: [centreSante_idC], references: [idC])
+  centreSante_idC   Int
+  sexe              String   
+  allergies         String?
+  groupeSang        String?
+  infoMedicaux      String?
+  province          String?
+  ville             String?
+  Parent            Parent   @relation(fields: [Parent_idP], references: [idP])
+  Parent_idP        Int
+  vaccins           Vaccin[]
+}
+
+// Define the Vaccin model
+model Vaccin {
+  idV               Int      @id @default(autoincrement())
+  nomV              String   @unique
+  descr             String?
+  EffetSecondaire   String?
+  ageRecommande     Int?
+  doseV             String?
+  abreviationV      String?
+  maladieEvitable   String?
+  enfant            Enfant   @relation(fields: [Enfant_idE], references: [idE])
+  Enfant_idE        Int
+  rendezVous        RendezVous[]
+}
+
+// Define the RendezVous model
+model RendezVous {
+  idR               Int       @id @default(autoincrement())
+  dateR             DateTime?
+  statusR           String    
+  CentreVax         CentreVax @relation(fields: [CentreVax_idC], references: [idC])
+  CentreVax_idC     Int
+  Parent            Parent    @relation(fields: [Parent_idP], references: [idP])
+  Parent_idP        Int
+  Vaccin            Vaccin    @relation(fields: [Vaccin_idV], references: [idV])
+  Vaccin_idV        Int
+}
